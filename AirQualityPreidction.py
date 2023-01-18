@@ -95,13 +95,6 @@ print("Mean absolute error: %.2f"
 print('R-squared: %.2f' % r2_score(y_test, lin_pred))
 
 # %%
-plt.scatter(y_test, lin_pred)
-plt.xlabel('Measured')
-plt.ylabel('Predicted')
-plt.title('Linear Regression Predicted vs Actual')
-plt.show()
-
-# %%
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
@@ -130,12 +123,5 @@ print("Mean absolute error: %.2f"
       % mean_absolute_error(y_test, regr_rf_pred))
 # Explained variance score: 1 is perfect prediction
 print('R-squared: %.2f' % r2_score(y_test, regr_rf_pred))
-
-# %%
-plt.scatter(y_test, regr_rf_pred)
-plt.xlabel('Measured')
-plt.ylabel('Predicted')
-plt.title('Decision Forest Predicted vs Actual')
-plt.show()
 
 
