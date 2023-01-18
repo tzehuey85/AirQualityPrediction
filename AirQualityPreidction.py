@@ -4,7 +4,6 @@
 import os 
 import pandas as pd
 from datetime import timedelta
-from matplotlib import pyplot as plt  
 
 os.chdir('C:/Users/Tam/Documents/Tam/Delhi-Air-Quality-Prediction-master')
 
