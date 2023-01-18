@@ -5,8 +5,6 @@ import os
 import pandas as pd
 from datetime import timedelta
 
-os.chdir('C:/Users/Tam/Documents/Tam/Delhi-Air-Quality-Prediction-master')
-
 # %%
 # read weather data
 
